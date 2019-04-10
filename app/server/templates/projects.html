@@ -11,9 +11,6 @@
           <h1 class="title is-1 has-text-white">
             Hello, {{ user.get_username | title }}.
           </h1>
-          <h2 class="subtitle is-4 has-text-white">
-            I hope you are having a great day!
-          </h2>
           {% if user.is_superuser %}
           <p>
             <a class="button is-medium is-primary" @click="isActive=!isActive">

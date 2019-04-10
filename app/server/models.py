@@ -59,7 +59,7 @@ class TextClassificationProject(Project):
 
     @property
     def image(self):
-        return staticfiles_storage.url('images/cats/text_classification.jpg')
+        return staticfiles_storage.url('images/cats/text_classification.png')
 
     def get_template_name(self):
         return 'annotation/document_classification.html'
@@ -86,7 +86,7 @@ class SequenceLabelingProject(Project):
 
     @property
     def image(self):
-        return staticfiles_storage.url('images/cats/sequence_labeling.jpg')
+        return staticfiles_storage.url('images/cats/sequence_labeling.png')
 
     def get_template_name(self):
         return 'annotation/sequence_labeling.html'
@@ -113,7 +113,7 @@ class Seq2seqProject(Project):
 
     @property
     def image(self):
-        return staticfiles_storage.url('images/cats/seq2seq.jpg')
+        return staticfiles_storage.url('images/cats/seq2seq.png')
 
     def get_template_name(self):
         return 'annotation/seq2seq.html'

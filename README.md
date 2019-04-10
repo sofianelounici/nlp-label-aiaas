@@ -98,6 +98,12 @@ pip install -r requirements.txt
 cd app
 ```
 
+If you get `pg_config executable not found` error in this step, you need to install `pg_config` module first on your OS. On Mac OS, this can be done by:
+
+```
+brew install postgresql
+```
+
 Next we need to start the webpack server so that the frontend gets compiled continuously.
 Run the following commands in a new shell:
 

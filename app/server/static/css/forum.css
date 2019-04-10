@@ -6,7 +6,7 @@ body {
 }
 
 footer {
-  background-color: #2a2e2f !important;
+  background-color: #3a397b !important;
   padding: 2rem 1.5rem 3rem !important;
 }
 
@@ -24,7 +24,7 @@ strong {
 }
 
 .navbar {
-  background-color: #2a2e2f;
+  background-color: #3a397b;
 }
 
 .navbar.has-shadow {
@@ -115,10 +115,7 @@ p {
 }
 
 .project-image {
-  background-image: url('/static/images/cat.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+	background: #5d5d93;
 }
 
 .is-shady {
@@ -166,7 +163,7 @@ p {
 }
 
 .navbar-dropdown {
-  background-color: #2a2e2f;
+  background-color: #3a397b;
   border-top: 0;
 }
 
