@@ -11,6 +11,7 @@ Vue.filter('simpleShortcut', simpleShortcut);
 
 Vue.component('annotator', {
   template: '<div @click="setSelectedRange">'
+        + '         <p>This is a paragraph.</p>'
           + '       <span class="text-sequence"'
           + '            v-for="r in chunks"'
           + '            v-if="id2label[r.label]"'
